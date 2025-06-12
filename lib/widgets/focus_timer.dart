@@ -5,7 +5,7 @@ class FocusTimer extends StatefulWidget {
   final Duration duration;
   final VoidCallback onCompleted;
 
-  const FocusTimer({required this.duration, required this.onCompleted});
+  const FocusTimer({super.key, required this.duration, required this.onCompleted});
 
   @override
   _FocusTimerState createState() => _FocusTimerState();

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AchievementsScreen extends StatefulWidget {
+  const AchievementsScreen({super.key});
+
   @override
   _AchievementsScreenState createState() => _AchievementsScreenState();
 }

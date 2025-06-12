@@ -53,11 +53,11 @@ class _FocusScreenState extends State<FocusScreen> {
     );
 
     // Save updated player state
-    final PlayerState new_state = PlayerState(
+    final PlayerState newState = PlayerState(
       level: widget.state.level,
       score: points,
     );
-    savePlayerState(new_state);
+    savePlayerState(newState);
   }
 
   void _showTimePickerModal() {
